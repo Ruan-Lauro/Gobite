@@ -1,0 +1,15 @@
+export const STORAGE_KEYS = {
+  USERS: '@delivery:users',
+  CURRENT_SESSION: '@delivery:current_session',
+  CART: '@delivery:cart',
+  ORDERS: '@delivery:orders',
+  LOCATIONS: '@delivery:locations',
+  CARDS: '@delivery:cards',
+  SETTINGS: '@delivery:settings',
+  CURRENT_LOCATION: '@delivery:current_location',
+  NOTIFICATIONS: '@notifications',
+  COUPON_DISTRIBUTIONS: '@coupon_distributions',
+  USER_COUPONS: '@user_coupons',
+  RECENT_SEARCHES: '@delivery:recent_searches',
+  FAVORITES: '@delivery:favorites',
+} as const;

@@ -1,30 +1,29 @@
 {
   "expo": {
-    "name": "my-expo-app",
+    "name": "GoBite",
     "slug": "my-expo-app",
+      "scheme": "gobite",
     "version": "1.0.0",
-
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
     "experiments": {
       "tsconfigPaths": true
     },
-
-    "plugins": [],
-
+    "plugins": [
+      "expo-font"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -32,6 +31,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.ruanlauro07.myexpoapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "803686b6-adb9-45da-bf1e-d29509ec9963"
       }
     }
   }
